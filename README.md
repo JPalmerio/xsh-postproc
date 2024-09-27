@@ -66,7 +66,7 @@ During processing of the workflow, two quality-control windows are shown:
 
 - **The flux-standard reduction**, where the response function is computed.
 This window should be inspected for agreement between the blue and the green lines, signifying that the standard star has been adequately calibrated.
-The blue line is the nightly, flux-calibrated standard star and the green line tabulated flux for this star. 
+The blue line is the nightly, flux-calibrated standard star and the green line is the tabulated flux for this star. 
 
 - **The science object reduction**, where mainly the sky regions should be set for each element in the nodding sequence.
 It could look something like this, where a faint trace of the afterglow is visible, centered at -2.5 arcsec.
@@ -75,7 +75,7 @@ The sky is specified using the sky_position and sky-hheight. For this example, t
 Note: for the workflow provided in `xsh_workflow_stare.kar`, we've actually disabled the first quality control window so you should see only one.
 
 Here is an example of such a window:
-![alt tag](docs/figs/sky_sub.png)
+![alt tag](docs/figs/stare_window_A.jpg)
 
 
 ### Sorting the ESOREFLEX outputs
